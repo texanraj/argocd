@@ -21,7 +21,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: aqua-db
-        image: registry.aquasec.com/database:4.6
+        image: registry.aquasec.com/database:4.6.20009
         imagePullPolicy: IfNotPresent
         env:
         - name: POSTGRES_PASSWORD
